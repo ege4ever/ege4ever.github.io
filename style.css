@@ -22,7 +22,18 @@ body {
   font-size: 2.4em; }
 .foo h1 {
   font-size: 3em;
-  font-size: 6em; }
+  font-size: 6em;
+  margin-bottom: 150px; }
+.foo a {
+  display: block;
+  position: fixed;
+  bottom: 10px;
+  width: 100vw;
+  margin: auto;
+  text-align: center; }
+  .foo a img {
+    display: inline-block;
+    align-self: center; }
 
 b {
   font-size: 1.7em;
