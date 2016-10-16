@@ -1,0 +1,129 @@
+body {
+  font-family: Helvetica;
+  background-color: #f6f6f6;
+  color: white;
+  text-shadow: 0px 0px 30px black; }
+
+.foo {
+  display: block;
+  margin-top: 35vh;
+  width: 100%; }
+
+.foo h1, .foo h2, .foo h3 {
+  margin: auto;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center; }
+.foo h3 {
+  margin-bottom: 15px;
+  font-size: 1.6em; }
+.foo h2 {
+  margin-bottom: 0px;
+  font-size: 2.4em; }
+.foo h1 {
+  font-size: 3em;
+  font-size: 6em; }
+
+b {
+  font-size: 1.7em;
+  text-weight: regular; }
+
+.arrow_left, .arrow_right {
+  font-size: 100px;
+  display: block;
+  position: absolute;
+  top: 35vh; }
+  .arrow_left a, .arrow_right a {
+    text-decoration: none;
+    color: #fff; }
+    .arrow_left a:hover, .arrow_right a:hover {
+      color: #bbb; }
+
+.arrow_right {
+  right: 10px; }
+
+.arrow_left {
+  left: 10px; }
+
+.img_1, .tiles .img1_1, .tiles .img2_1, .tiles .img3_1, .tiles .img4_1 {
+  left: 0;
+  top: 0; }
+
+.img_2, .tiles .img1_2, .tiles .img2_2, .tiles .img3_2, .tiles .img4_2 {
+  right: 0;
+  top: 0; }
+
+.img_3, .tiles .img1_3, .tiles .img2_3, .tiles .img3_3, .tiles .img4_3 {
+  left: 0;
+  bottom: 0; }
+
+.img_4, .tiles .img1_4, .tiles .img2_4, .tiles .img3_4, .tiles .img4_4 {
+  right: 0;
+  bottom: 0; }
+
+.shade, .tiles, .tiles_1 {
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  position: fixed; }
+
+.tiles_1 {
+  z-index: -2; }
+  .tiles_1 div {
+    background-image: url("images/1.gif");
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%; }
+
+.shade {
+  z-index: -1;
+  background-color: #000;
+  opacity: 0.2; }
+
+.tiles {
+  z-index: -2; }
+  .tiles div {
+    position: absolute;
+    height: 50vh;
+    width: 50vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%; }
+  .tiles .img1_1 {
+    background-image: url("images/1_1.gif"); }
+  .tiles .img1_2 {
+    background-image: url("images/1_2.gif"); }
+  .tiles .img1_3 {
+    background-image: url("images/1_3.gif"); }
+  .tiles .img1_4 {
+    background-image: url("images/1_4.gif"); }
+  .tiles .img2_1 {
+    background-image: url("images/2_1.gif"); }
+  .tiles .img2_2 {
+    background-image: url("images/2_2.gif"); }
+  .tiles .img2_3 {
+    background-image: url("images/2_3.gif"); }
+  .tiles .img2_4 {
+    background-image: url("images/2_4.gif"); }
+  .tiles .img3_1 {
+    background-image: url("images/3_1.gif"); }
+  .tiles .img3_2 {
+    background-image: url("images/3_2.gif"); }
+  .tiles .img3_3 {
+    background-image: url("images/3_3.gif"); }
+  .tiles .img3_4 {
+    background-image: url("images/3_4.gif"); }
+  .tiles .img4_1 {
+    background-image: url("images/4_1.gif"); }
+  .tiles .img4_2 {
+    background-image: url("images/4_2.gif"); }
+  .tiles .img4_3 {
+    background-image: url("images/4_3.gif"); }
+  .tiles .img4_4 {
+    background-image: url("images/4_4.gif"); }
+
+/*# sourceMappingURL=style.css.map */
